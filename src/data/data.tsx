@@ -101,9 +101,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `I'm graduating from UNC-Chapel Hill in May 2023 with dual degrees in Economics and Computer Science. Besides those subject areas, I am greatly interested in financial markets (traditional, cryptocurrency, commodities), machine learning, and data science.`,
   aboutItems: [
     {label: 'Location', text: 'Chapel Hill, NC', Icon: MapIcon},
     {label: 'Age', text: '23', Icon: CalendarIcon},
@@ -261,24 +259,24 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
+    date: 'May 2023',
+    location: 'University of North Carolina at Chapel Hill',
+    title: 'B.S. in Economics',
     content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
+    date: 'May 2023',
+    location: 'University of North Carolina at Chapel Hill',
+    title: 'B.A. in Computer Science',
     content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'January 2020 - Present',
+    location: 'Self-Employed',
+    title: 'Research / Investment',
     content: (
       <p>
         Describe work, special projects, notable achievements, what technologies you have been working with, and
@@ -287,9 +285,9 @@ export const experience: TimelineItem[] = [
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'August 2021 - August 2022',
+    location: 'Olympus DAO',
+    title: 'Research / Financial Intern & Assistant',
     content: (
       <p>
         Describe work, special projects, notable achievements, what technologies you have been working with, and
