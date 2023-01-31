@@ -329,7 +329,7 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description: 'If you would like to reach out to me, use the provided contact box or follow the links to one of my contacts.',
   items: [
     {
       type: ContactType.Email,
@@ -339,7 +339,7 @@ export const contact: ContactSection = {
     {
       type: ContactType.Location,
       text: 'Chapel Hill, NC',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      href: 'https://goo.gl/maps/cgVUdECny7Ykr88W7',
     },
     {
       type: ContactType.Github,
