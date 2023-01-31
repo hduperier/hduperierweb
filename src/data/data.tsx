@@ -69,18 +69,17 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Harvey Duperier.`,
+  name: `Hi. I'm Harvey Duperier.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        I'm a North Carolina based Student, currently studying
+        at <strong className="text-stone-100">UNC-Chapel Hill</strong> focused on <strong className="text-stone-100">Economics and Computer Science</strong>.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        In my free time time, you can catch me training my <strong className="text-stone-100">German Sherpherd</strong>,
+        plucking my <strong className="text-stone-100">guitar</strong> (badly), or exploring {' '}
+        <strong className="text-stone-100">The Triangle</strong> (Chapel Hill, Durham, Raleigh).
       </p>
     </>
   ),
@@ -122,7 +121,7 @@ export const aboutData: About = {
  */
 export const skills: SkillGroup[] = [
   {
-    name: 'Spoken languages',
+    name: 'Spoken Languages',
     skills: [
       {
         name: 'English',
@@ -130,62 +129,58 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'French',
-        level: 4,
-      },
-      {
-        name: 'Spanish',
-        level: 3,
+        level: 2,
       },
     ],
   },
   {
-    name: 'Frontend development',
+    name: 'Frontend Development',
     skills: [
       {
-        name: 'React',
-        level: 9,
-      },
-      {
-        name: 'Typescript',
-        level: 7,
-      },
-      {
-        name: 'GraphQL',
-        level: 6,
-      },
-    ],
-  },
-  {
-    name: 'Backend development',
-    skills: [
-      {
-        name: 'Node.js',
+        name: 'HTML/CSS',
         level: 8,
       },
       {
-        name: 'Rust',
-        level: 5,
+        name: 'Javascript',
+        level: 6,
       },
       {
-        name: 'Golang',
+        name: 'Typescript',
+        level: 5,
+      },
+    ],
+  },
+  {
+    name: 'Backend Development',
+    skills: [
+      {
+        name: 'SQL',
+        level: 9,
+      },
+      {
+        name: 'Python',
+        level: 7,
+      },
+      {
+        name: 'Node.js',
         level: 4,
       },
     ],
   },
   {
-    name: 'Mobile development',
+    name: 'Miscellaneous Development',
     skills: [
       {
-        name: 'React Native',
+        name: 'Microsoft Office (Excel in Particular)',
         level: 9,
       },
       {
-        name: 'Flutter',
-        level: 4,
+        name: 'R',
+        level: 7,
       },
       {
         name: 'Swift',
-        level: 3,
+        level: 6,
       },
     ],
   },
@@ -196,8 +191,8 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
+    title: 'Loan Default Predictor',
+    description: 'Prediction of defaults utilizing Machine Learning models.',
     url: 'https://timbaker.me',
     image: porfolioImage1,
   },
@@ -340,23 +335,18 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'henryha@live.unc.edu',
+      href: 'mailto:henryha@live.unc.edu',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
+      text: 'Chapel Hill, NC',
       href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
     },
     {
-      type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
-    },
-    {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'hduperier',
+      href: 'https://github.com/hduperier',
     },
   ],
 };
@@ -368,6 +358,4 @@ export const socialLinks: Social[] = [
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/hduperier'},
   {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'linkedin.com/in/h-harvey-duperier-049bb8198'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
 ];
