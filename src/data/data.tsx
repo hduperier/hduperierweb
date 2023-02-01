@@ -185,11 +185,12 @@ export const skills: SkillGroup[] = [
 /**
  * Portfolio section
  */
+// What do I put in the url section for each item below to link to html files?
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Loan Default Predictor',
     description: 'Prediction of defaults utilizing Machine Learning models.',
-    url: 'https://timbaker.me',
+    url: 'loanPred.html',
     image: porfolioImage1,
   },
   {
@@ -201,7 +202,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Project title 3',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: 'https://timbaker.',
     image: porfolioImage3,
   },
   {
