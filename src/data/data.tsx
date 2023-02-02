@@ -190,7 +190,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Loan Default Predictor',
     description: 'Prediction of defaults utilizing Machine Learning models.',
-    url: 'loadPred.html',
+    url: 'https://hduperier.github.io/loanDefaultPrediction/',
     image: porfolioImage1,
   },
   {
