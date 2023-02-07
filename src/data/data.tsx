@@ -194,9 +194,9 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Modeling KickStarter Campaign Success.',
+    description: 'Predicting campaign success with machine learning algorithms.',
+    url: 'https://github.com/hduperier/kickstarterMachineLearning/blob/main/573%20Research%20Paper.pdf',
     image: porfolioImage2,
   },
   {
