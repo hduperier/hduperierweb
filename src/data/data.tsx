@@ -280,8 +280,12 @@ export const experience: TimelineItem[] = [
     title: 'Research / Investment',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        <ul>
+          <li>Heavily researched cryptocurrency and traditional finance markets, focusing on topics such as scalability of blockchains through L2s, EVM workings, automated trading bots, and more.</li>
+          <li>Personal investing on multiple time-frames with self-developed trading edges through TA, FA, tokenomics, and heavy research/data analytics.</li>
+          <li>Made strides in data science knowledge with high profieciency in Python, R, and SQL, among other languages.</li>
+          <li>Developed personal trading bots in cryptocurrency markets that work on multiple timeframes.</li>
+        </ul>
       </p>
     ),
   },
@@ -291,8 +295,12 @@ export const experience: TimelineItem[] = [
     title: 'Research / Financial Intern & Assistant',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        <ul>
+          <li>Organized seed round investing and exchange listing conversation between my superior, the head of Olympuus, and financial corporations and VCs, such as Coinbase, paradigm, a16z, Atlantis VC, Arca VC, and more.</li>
+          <li>Personal kept and managed my superior's schedule and calendar, aiding in calls, meetings, development, and research.</li>
+          <li>Aided in research papers on Layer 2 scaling solutions and digital inverse bonds.</li>
+          <li>Handled all other personal aspects of supervisor's schedule and life, planning and updating nearly hourly.</li>
+        </ul>
       </p>
     ),
   },
