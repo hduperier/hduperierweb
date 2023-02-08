@@ -263,13 +263,13 @@ export const education: TimelineItem[] = [
     date: 'May 2023',
     location: 'University of North Carolina at Chapel Hill',
     title: 'B.S. in Economics',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    content: <p>Studied Economics at UNC-Chapel Hill. Relevant coursework includes: Econometrics, Machine Learning Econometrics, Labor Economics, Economics of Life, and others.</p>,
   },
   {
     date: 'May 2023',
     location: 'University of North Carolina at Chapel Hill',
     title: 'B.A. in Computer Science',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    content: <p>Studied Computer Science at UNC-Chapel Hill. Relevant coursework includes: Data Structures, Software Development, Cybersecurity, Machine Learning Econometrics, and others.</p>,
   },
 ];
 
@@ -296,8 +296,8 @@ export const experience: TimelineItem[] = [
     content: (
       <p>
         <ul>
-          <li>Organized seed round investing and exchange listing conversation between my superior, the head of Olympuus, and financial corporations and VCs, such as Coinbase, paradigm, a16z, Atlantis VC, Arca VC, and more.</li>
-          <li>Personal kept and managed my superior's schedule and calendar, aiding in calls, meetings, development, and research.</li>
+          <li>Organized seed round investing and exchange listing conversation between my superior, the head of Olympus, and financial corporations and VCs, such as Coinbase, paradigm, a16z, Atlantis VC, Arca VC, and more.</li>
+          <li>Personally kept and managed my superior's schedule and calendar, aiding in calls, meetings, development, and research.</li>
           <li>Aided in research papers on Layer 2 scaling solutions and digital inverse bonds.</li>
           <li>Handled all other personal aspects of supervisor's schedule and life, planning and updating nearly hourly.</li>
         </ul>
