@@ -200,9 +200,9 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage2,
   },
   {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.',
+    title: 'Personal Blog',
+    description: 'My personal blog where I write about topics that interest me such as finance, cryptocurrency, and tech.',
+    url: 'https://hduperier.github.io/myThoughtsBlog/',
     image: porfolioImage3,
   },
   {
