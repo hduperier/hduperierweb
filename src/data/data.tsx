@@ -76,7 +76,7 @@ export const heroData: Hero = {
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, you can catch me training my <strong className="text-stone-100">German Sherpherd</strong>,
-        plucking my <strong className="text-stone-100">guitar</strong> (badly), or exploring {' '}
+        practicing my <strong className="text-stone-100">chef</strong> skills in the kitchen, or exploring {' '}
         <strong className="text-stone-100">The Triangle</strong> (Chapel Hill, Durham, Raleigh).
       </p>
     </>
